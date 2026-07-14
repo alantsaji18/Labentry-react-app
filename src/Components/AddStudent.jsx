@@ -46,7 +46,7 @@ const AddStudent = () => {
                     <br></br>
                     <div className="col col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                         <div className="row g-3">
-                            <div className="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4-col-xxl-4">
+                            <div className="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6-col-xxl-6">
                                 <label className="form-label">Student Name</label>
                                 <input type="text"
                                     className="form-control"
@@ -54,7 +54,7 @@ const AddStudent = () => {
                                     value={input.name}
                                     onChange={inputHandler}/>
                             </div>
-                            <div className="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4-col-xxl-4">
+                            <div className="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6-col-xxl-6">
                                 <label className="form-label">Department</label>
                                 <input type="text"
                                     className="form-control"
@@ -62,7 +62,7 @@ const AddStudent = () => {
                                     value={input.dept}
                                     onChange={inputHandler}/>
                             </div>
-                            <div className="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4-col-xxl-4">
+                            <div className="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6-col-xxl-6">
                                 <label className="form-label">Semester</label>
                                 <input type="text"
                                     className="form-control"
@@ -110,7 +110,7 @@ const AddStudent = () => {
                                     onChange={inputHandler} />
                             </div>
                         
-                            <div className="col col-12 col-sm-12 col-md-6 col-lg-12 col-xl-12-col-xxl-12">
+                            <div className="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6-col-xxl-6">
                                 <label className="form-label">Date</label>
                                 <input type="date"
                                     className="form-control"
